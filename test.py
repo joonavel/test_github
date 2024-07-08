@@ -1,5 +1,6 @@
-def greet(name):
-    return 'Hello, ' + name # Bad formatting and missing type annotations
+def greet(name: str) -> str:
+    return "Hello, " + name
+
 
 if __name__ == "__main__":
-    print(greet('World'))
+    print(greet("World"))
